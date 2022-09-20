@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+./s3d-format
+
+terraform validate
