@@ -1,5 +1,6 @@
 variable "ip_blacklist" {
-  type = list(string)
+  default = []
+  type    = list(string)
 
   description = <<-END
     The IP Blacklist 
@@ -12,7 +13,8 @@ variable "ip_blacklist" {
 }
 
 variable "ip_whitelist" {
-  type = list(string)
+  default = ["0.0.0.0/0"]
+  type    = list(string)
 
   description = <<-END
     The IP Whitelist
@@ -24,7 +26,7 @@ variable "ip_whitelist" {
     END
 }
 
-variable "name" {
+variable "name_prefix" {
   type = string
 
   description = <<-END
@@ -43,6 +45,6 @@ variable "tags" {
   description = <<-END
     The tags for resources
 
-    Resources associated with this module will have these tags.
+    This module will include these tags on all resources.
     END
 }

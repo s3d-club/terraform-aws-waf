@@ -1,10 +1,8 @@
 # Changes
-- This is a [CHANGES.md](https://go.s3d.club/changes/) file
+Recently completed and planned work is tracked here.
 
-## [0.0.1](.)
-- Minimal working version
+## [0.0.0](.) [0.0.9](.)
+- Created first versions
 
-## [Next](.)
-- **TODO** Added CI/CD
-- **TODO** Improved `README.md`
-- **TODO** Updated `.terraform.lock.hcl`
+## [0.1.0](.)
+- Completed 1st release
