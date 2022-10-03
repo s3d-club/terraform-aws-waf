@@ -38,6 +38,16 @@ variable "name_prefix" {
     END
 }
 
+variable "redirects" {
+  default = {}
+  type    = map(string)
+
+  description = <<-END
+		Redirects
+		https://go.s3d.club/waf#redirects
+    END
+}
+
 variable "tags" {
   default = {}
   type    = map(string)

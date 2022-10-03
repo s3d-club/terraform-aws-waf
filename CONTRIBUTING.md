@@ -6,7 +6,7 @@ change you wish to make. We add plan items to our [CHANGES][chge] document
 ## Pull Request Process
 1. Notify us about the planned work **before** you invest your time
 2. Wait until you see the bullet point for your planned item(s) in
-	 [CHANGES][chge] of our `main` branch
+   [CHANGES][chge] of our `main` branch
 3. Do the work you have planned or make recommended changes
 4. Update the `CHANGES`, `README`, and other documentation files
 5. Create and push a pre-release tag
