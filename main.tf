@@ -8,7 +8,7 @@ locals {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.1"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.2"
 
   path    = path.module
   context = var.name_prefix
@@ -16,8 +16,9 @@ module "name" {
 }
 
 resource "aws_cloudwatch_log_group" "this" {
-  name = "aws-waf-logs-${var.name_prefix}"
-  tags = local.tags
+  name       = "aws-waf-logs-${var.name_prefix}"
+  tags       = local.tags
+  kms_key_id = var.kms_key_arn
 }
 
 resource "aws_wafv2_ip_set" "blacklist" {

@@ -11,3 +11,8 @@ Recently completed and planned work is tracked here.
 - Removed obsolete `s3d-post-flow`
 - Updated `README.md`
 - Upgraded `name` module
+
+## [0.1.2](.)
+- Added `kms_key_arn` variable
+- Improved variable descriptions
+- Updated `name` module
