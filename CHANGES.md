@@ -1,18 +1,8 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) to [0.1.0](.)
-- Created first versions
+## [0.0.0](.) to [0.1.2](.)
+- Created early versions
 
-## [0.1.1](.)
-- Added `aws_cloudwatch_log_group`
-- Added variable for `redirects` _(tested and works with git)_
-- Fixed logic for ip restrictions
-- Removed obsolete `s3d-post-flow`
-- Updated `README.md`
-- Upgraded `name` module
-
-## [0.1.2](.)
-- Added `kms_key_arn` variable
-- Improved variable descriptions
+## [0.1.3](.)
 - Updated `name` module
