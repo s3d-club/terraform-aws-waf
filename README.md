@@ -1,10 +1,10 @@
-# S3D WAF Module
+# WAF Module
 This project is a Terraform module for AWS Web Application Firewall.
 
-## Also READ
+## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
 and [CHANGES][chge] documents before working in this project and anytime they
-are update.
+are updated.
 
 ## Overview
 The Web Application Firewal (WAF) is an important tool for providing services
