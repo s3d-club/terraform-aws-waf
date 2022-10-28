@@ -25,10 +25,10 @@ addresses are allowed.
 The `redirects` map provides a way to send `301` redirects for a map of path
 strings.
 
-The name and tags for AWS resources are managed by this module such that the
-WAF will have a unique name that includes the prefix input. Input tags are
-ammended with information about this module's version and the set of tags are
-applied to resources.
+The name and tags for AWS resources are managed by this module such that the WAF
+will have a unique name that includes the prefix input. Input tags are ammended
+with information about this module's version and the set of tags are applied to
+resources.
 
 [chge]: ./CHANGES.md
 [code]: ./CODE-OF-CONDUCT.md

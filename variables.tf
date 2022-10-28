@@ -2,56 +2,50 @@ variable "ip_blacklist" {
   default = []
   type    = list(string)
 
-  description = <<-END
-    a list of IP addresses that will be blocked.
-    https://go.s3d.club/tf/waf#ip_blacklist
-    END
+  description = <<-EOT
+    A list of IP addresses that will be blocked.
+    EOT
 }
 
 variable "ip_whitelist" {
   default = ["0.0.0.0/0"]
   type    = list(string)
 
-  description = <<-END
-    a list of IP addresses that will be allowed.
-    https://go.s3d.club/tf/waf#ip_whitelist
-    END
+  description = <<-EOT
+    A list of IP addresses that will be allowed.
+    EOT
 }
 
 variable "kms_key_arn" {
   type = string
 
-  description = <<-END
-    KMS Key ARN
-    https://go.s3d.club/tf/waf#kms_key_arn
-    END
+  description = <<-EOT
+    A KMS Key ARN.
+    EOT
 }
 
 variable "name_prefix" {
   type = string
 
-  description = <<-END
-    a prefix for resource names.
-    https://go.s3d.club/tf/waf#name_prefix
-    END
+  description = <<-EOT
+    A prefix for resource names.
+    EOT
 }
 
 variable "redirects" {
   default = {}
   type    = map(string)
 
-  description = <<-END
-    a map of path with urls for 301 redirects.
-    https://go.s3d.club/waf#redirects
-    END
+  description = <<-EOT
+    A map of path with urls for 301 redirects.
+    EOT
 }
 
 variable "tags" {
   default = {}
   type    = map(string)
 
-  description = <<-END
+  description = <<-EOT
     A map of tags for resources.
-    https://go.s3d.club/waf#redirects
-    END
+    EOT
 }
