@@ -11,3 +11,6 @@ Recently completed and planned work is tracked here.
 - Improved descriptions of variables and outputs
 - Updated `.terraform.lock.hcl` and `terraform.tf`
 - Updated `name` module
+
+## [0.1.12](.)
+- Changed to use `-x` as suffix for pre-release versions
