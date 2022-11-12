@@ -8,8 +8,14 @@ This file describes the project history as it relates to tagged versions.
 - Improved descriptions of variables and outputs
 - Updated `.terraform.lock.hcl` and `terraform.tf`
 - Updated `name` module
-- Upgraded `terraform` version
-- Upgraded `time` provider
+- Updated `terraform` version
+- Updated `time` provider
 
 ## [0.1.14](.)
 - Updated version
+
+## [0.1.15](.)
+- Updated `aws` provider
+- Updated `external` provider
+- Updated `name` module
+- Updated `time` provider
