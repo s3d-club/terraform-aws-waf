@@ -6,10 +6,7 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.10](.) to [0.1.16](.)
 - Improved descriptions of variables and outputs
-- Updated `.terraform.lock.hcl` and `terraform.tf`
-- Updated `name` module
-- Updated `terraform` version
-- Updated `time` provider
+- Updated modules and providers
 
-## [0.1.17](.)
+## [0.1.17](.) to [0.1.18](.)
 - Updated `aws` provider
