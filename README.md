@@ -1,10 +1,9 @@
 # WAF Module
 This project is a Terraform module for AWS Web Application Firewall.
 
-## Other Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are updated.
+## Associated Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], and [CHANGES][chge]
+documents before working in this project and anytime they are updated.
 
 ## Overview
 The Web Application Firewal (WAF) is an important tool for providing services
@@ -31,6 +30,5 @@ with information about this module's version and the set of tags are applied to
 resources.
 
 [chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
