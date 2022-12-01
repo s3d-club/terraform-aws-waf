@@ -13,3 +13,6 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.20](.)
 - Updated `aws` provider
+
+## [0.1.21](.)
+- Updated `required_version`
